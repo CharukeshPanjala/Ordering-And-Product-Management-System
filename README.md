@@ -45,8 +45,8 @@ A full-stack inventory and order management system built with **React + TypeScri
 ## 🛠️ Getting Started
 
 ```bash
-git clone https://github.com/your-username/opms.git
-cd opms
+git clone https://github.com/CharukeshPanjala/Ordering-And-Product-Management-System
+cd Ordering-And-Product-Management-System
 docker-compose up --build
 ```
 
