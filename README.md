@@ -40,6 +40,33 @@ Designed for a **user-friendly, efficient, and clear admin experience**.
 
 ---
 
+## 🎯 Project Goals
+
+- **Requirement Engineering:** Gather and specify functional and non-functional requirements.
+- **System Design:** Create and document architecture, ER diagrams, UML, and process flows.
+- **Prototyping:** Design UI/UX using Figma and document workflows.
+- **Implementation:** Build a working prototype using React (frontend), Node.js/Express (backend), and PostgreSQL (database).
+- **Testing & Validation:** Prepare test cases, run validation, and provide a functional checklist.
+- **Documentation:** Deliver a complete SRS, technical specifications, diagrams, backlog, test plan, validation report, and a clear user/developer manual.
+
+---
+
+## ✨ Project Summary
+
+The system enables an admin to:
+- Log in securely
+- Add, update, delete, and view products and inventory
+- Create and manage customer orders
+- Access a dashboard with key metrics: number of orders, product demand, stock levels
+- Receive automated alerts for low stock and demand trends
+- Use a minimal, user-friendly interface for all tasks
+
+---
+
+**All development, design, and documentation will be managed using GitHub, Jira, and Figma, following agile methodology.**
+
+> _See `/docs` for all detailed project documents and diagrams._
+
 ## 🏗️ System Architecture
 
 [Admin User] → [React Frontend] → [Node.js/Express API] → [Prisma ORM] → [PostgreSQL Database]
