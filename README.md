@@ -1,53 +1,45 @@
+# 🛒 Ordering and Product Management System
 
-# 📦 Ordering and Product Management System
-
-A full-stack inventory and order management system built with **React + TypeScript**, **Node.js + Express**, and **PostgreSQL**, designed to streamline product tracking, order processing, and demand analytics for administrative users.
-
----
-
-## 🚀 Features
-
-- 🛒 **Product Management** – Add, edit, delete, and list products with real-time stock data  
-- 📦 **Order Processing** – Create and manage customer orders with status tracking  
-- 📊 **Dashboard & Reporting** – Visual insights into product demand and inventory health  
-- 🚨 **Inventory Alerts** – Automated low-stock notifications for proactive supply management  
-- 📋 **User-Friendly UI** – Clean React interfaces for intuitive admin workflows  
-- 🛠️ **Full REST API** – Express backend with Prisma ORM and PostgreSQL  
-- 🐳 **Dockerized Deployment** – Containerized frontend, backend, and database for portability  
-- 📈 **Logging & Monitoring** – Integrated log aggregation with **Grafana + Loki + Promtail**
+A modern, full-stack web application for managing inventory, tracking orders, and visualizing demand analytics—built with React, Node.js (Express), TypeScript, Prisma, and PostgreSQL.
 
 ---
 
-## ⚙️ Tech Stack
+## 🚀 Project Overview
 
-- **Frontend**: React.js + TypeScript  
-- **Backend**: Node.js + Express + TypeScript  
-- **Database**: PostgreSQL  
-- **ORM**: Prisma  
-- **Containerization**: Docker, Docker Compose  
-- **Monitoring**: Grafana, Loki, Promtail  
-- **DevOps**: Environment configuration via `.env`, logging with Morgan & Winston
+This system empowers administrators to:
+- Manage products and inventory (CRUD)
+- Process and track orders
+- View real-time demand trends with dashboards
+- Get low-stock alerts for proactive restocking
+- Securely manage all actions with authentication
 
----
-
-## 📁 Structure
-
-```
-/frontend     → React + TypeScript client  
-/backend      → Express + Prisma server  
-/prisma       → Database schema & migrations  
-/docker       → Docker & Compose setup  
-/docs         → SRS, Tech Spec, Test Plans, Maintenance
-```
+Designed for a **user-friendly, efficient, and clear admin experience**.
 
 ---
 
-## 🛠️ Getting Started
+## 🗂️ Features
 
-```bash
-git clone https://github.com/CharukeshPanjala/Ordering-And-Product-Management-System
-cd Ordering-And-Product-Management-System
-docker-compose up --build
-```
+- **Admin Dashboard** for a unified view of products, orders, and analytics
+- **Product Management** (Add, edit, delete, view inventory)
+- **Order Management** (Create, update, view, and track orders)
+- **Demand Analytics** (Visual charts of product trends and low-stock items)
+- **Automated Alerts** for low stock
+- **Authentication** (secure login for admins)
+- **Responsive UI** with a clean and modern design
+- **Full documentation** and architecture diagrams
 
 ---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** React + TypeScript
+- **Backend:** Node.js + Express + TypeScript
+- **Database:** PostgreSQL (with Prisma ORM)
+- **Design:** Figma (for UI/UX)
+- **Project Management:** Jira (agile workflow), draw.io (architecture)
+
+---
+
+## 🏗️ System Architecture
+
+[Admin User] → [React Frontend] → [Node.js/Express API] → [Prisma ORM] → [PostgreSQL Database]
