@@ -1,10 +1,10 @@
-# 🛒 Ordering and Product Management System
+#  Ordering and Product Management System
 
 A modern, full-stack web application for managing inventory, tracking orders, and visualizing demand analytics—built with React, Node.js (Express), TypeScript, Prisma, and PostgreSQL.
 
 ---
 
-## 🚀 Project Overview
+##  Project Overview
 
 This system empowers administrators to:
 - Manage products and inventory (CRUD)
@@ -17,7 +17,7 @@ Designed for a **user-friendly, efficient, and clear admin experience**.
 
 ---
 
-## 🗂️ Features
+##  Features
 
 - **Admin Dashboard** for a unified view of products, orders, and analytics
 - **Product Management** (Add, edit, delete, view inventory)
@@ -30,7 +30,7 @@ Designed for a **user-friendly, efficient, and clear admin experience**.
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Frontend:** React + TypeScript
 - **Backend:** Node.js + Express + TypeScript
@@ -40,7 +40,7 @@ Designed for a **user-friendly, efficient, and clear admin experience**.
 
 ---
 
-## 🎯 Project Goals
+## Project Goals
 
 - **Requirement Engineering:** Gather and specify functional and non-functional requirements.
 - **System Design:** Create and document architecture, ER diagrams, UML, and process flows.
@@ -51,7 +51,7 @@ Designed for a **user-friendly, efficient, and clear admin experience**.
 
 ---
 
-## ✨ Project Summary
+## Project Summary
 
 The system enables an admin to:
 - Log in securely
@@ -67,6 +67,6 @@ The system enables an admin to:
 
 > _See `/docs` for all detailed project documents and diagrams._
 
-## 🏗️ System Architecture
+## System Architecture
 
 [Admin User] → [React Frontend] → [Node.js/Express API] → [Prisma ORM] → [PostgreSQL Database]
