@@ -102,17 +102,6 @@ This backlog serves as a working draft for Jira import, grooming, and sprint pla
 
 ---
 
-##  Jira Task Recommendations
-
-For each user story:
-- Create an **Epic** or **Task**
-- Add subtasks for:
-  - Frontend
-  - Backend
-  - UI/UX
-  - Testing
-- Attach this markdown file or link to it
-
 ---
 
 _Last updated: 2025-06-21_  
